@@ -1,0 +1,303 @@
+@import "bootstrap";
+
+@import "bootstrap-icons";
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Patrick+Hand&family=Racing+Sans+One&display=swap');
+
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+:root {
+
+  --background-color: #8AA6A3;
+  --background-color-opacity: #8aa6a386;
+  
+  --primary-color: #127369;
+  --primary-dark-color: #10403B;
+
+  --secondary-color: #BFBFBF;
+  --secondary-dark-color: #4C5958;
+
+  --hover-color: rgba(252,212,5,1);
+
+}
+/* Body */
+* {
+  padding: 0;
+
+  margin: 0;
+}
+
+body {
+
+  background-image: url('https://thumbs.dreamstime.com/z/cart-background-made-carts-vector-illustration-36868023.jpg?w=768%27');
+
+}
+
+.bgColor {
+
+  background-color: var(--background-color);
+
+  background: radial-gradient(circle,  var(--background-color-opacity), var(--background-color));
+ 
+
+}
+
+/* Navbar */
+
+.navStyle {
+  box-shadow: 10px 10px 15px var(--secondary-dark-color);
+
+  background:  var(--background-color);
+
+  background: radial-gradient(circle,  var(--primary-color), var(--background-color));
+
+  font-size: 20px;
+
+}
+
+#logo {
+
+  font-family: 'Racing Sans One', cursive;
+  
+  font-size: xx-large;
+  
+  color: var(--primary-dark-color); 
+
+}
+
+#logo:hover {
+
+  color: var(--hover-color);
+}
+
+#navbarLink {
+
+  font-family: 'Aclonica', sans-serif;
+}
+
+#navbarLink:hover {
+
+  color: var(--hover-color);
+
+
+}
+
+#navbarLinks:hover {
+
+  color: var(--hover-color);
+
+  background-color: var(--background-color);
+
+}
+
+
+#navbarLinkRevisor {
+
+  color: var(--primary-dark-color);
+
+}
+
+.navDropdown {
+
+  background-color: none;
+
+  border: 0;
+  
+}
+
+.navDropdown:focus {
+
+  background-color: none;
+
+  border: 0;
+
+}
+
+.bgDropdown {
+
+  border: 0;
+
+  background-color: var(--background-color);
+
+  border-bottom: 2px var(--primary-dark-color) solid;
+
+  border-right: 2px var(--primary-dark-color) solid;
+
+}
+
+/* Homepage */
+
+#firstTitle {
+  color: var(--primary-dark-color);
+}
+
+#firstTitle:hover {
+  color:rgb(81,189,181);;
+}
+
+.carouselText {
+  color: rgb(81,189,181); 
+
+  text-shadow: 2px 2px rgb(84, 36, 36);
+  
+  text-transform: uppercase;
+}
+
+.formTitle {
+  
+  font-family: 'Racing Sans One';
+  
+  font-weight: bold;
+  
+  display: flex;
+  
+  justify-content: center;
+  
+  align-items: center;
+
+  padding: 25px 0px;
+  
+  color: var(--primary-dark-color);
+  
+  background: rgb(252,212,5);
+  
+  background: radial-gradient(circle, rgba(252,212,5,1) 29%, rgba(245,161,4,1) 84%); 
+  
+  border-radius: 50px 5px 50px 5px; 
+  
+  height: 50px;
+  
+  box-shadow: 5px 5px 5px  rgb(84, 36, 36);
+
+}
+
+.search {
+
+  background:  var(--background-color);
+  
+  background: radial-gradient(circle,  var(--primary-color), var(--background-color));
+  
+  border-radius: 16px;
+
+  padding-bottom: 20px;
+
+}
+
+/* Categories card custom */
+
+.circle-airplane{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.card-bdash {
+
+  background-color:  var(--background-color);
+
+  border: 4px var(--primary-dark-color) solid;
+
+  border-radius: 16px;
+
+  transition: 1s, 1s;
+
+}
+
+.card-bdash:hover {
+
+  background-color:  rgba(252,212,5,1);
+
+  text-decoration: underline;
+
+  border-radius: 25%;
+
+
+}
+
+/* Card */
+.cardAds {
+
+  background:  var(--background-color);
+
+  background: radial-gradient(circle,  var(--primary-color), var(--background-color));
+
+  border-radius: 16px;
+  
+  box-shadow: 10px 10px 15px rgb(84, 36, 36);
+}
+
+.card-title {
+  font-family: 'Racing Sans One', cursive;
+
+  background: rgb(252,212,5); background: radial-gradient(circle, rgba(252,212,5,1) 29%, rgba(245,161,4,1) 84%);
+
+  border-radius: 0 5px 50px 0px;
+
+  width: 100%;
+
+  height: 40px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.cardAds:hover {
+
+  box-shadow: 0 0 50px 15px white;
+}
+/* box */
+
+.formBox {
+  font-family: 'Aclonica', sans-serif;;
+  font-size: x-large;
+  margin-bottom: 20px;
+  text-align: start;
+  color:var(--primary-dark-color);
+  border-radius: 25px;
+  background-color: var(--background-color);
+  box-shadow: 0 0 50px rgb(84, 36, 36);
+}
+
+/* Button */
+
+.buttonStyle {
+
+  background-color: rgba(252,212,5,1);
+  border-color: rgba(245,161,4,1) ;
+  border-radius: 5px;
+  font-family: 'Aclonica', sans-serif;
+  color: var(--primary-dark-color);
+}
+
+
+/* Footer */
+
+.bgfooter {
+
+  background:  var(--background-color);
+  background: radial-gradient(circle,  var(--primary-color), var(--background-color));
+
+  width: 100%;
+
+
+}
+
+.footerRef {
+   color: var(--primary-dark-color); 
+
+   text-decoration: none;
+
+}
+
+.footerRef:hover{
+  color: var(--hover-color);
+}
